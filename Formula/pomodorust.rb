@@ -5,31 +5,31 @@
 class Pomodorust < Formula
   desc "Pomodoro app written in rust"
   homepage "https://github.com/ruteckimikolaj/pomodorust"
-  url "https://github.com/ruteckimikolaj/pomodorust/archive/refs/tags/0.2.0.tar.gz"
-  sha256 "b6130dfc1a397508c858502beaf3ca8ef1f7f1f30a0daf2ec526685d00a71253"
+  url "https://github.com/ruteckimikolaj/pomodorust/archive/refs/tags/0.2.1.tar.gz"
+  sha256 "86d6f52679d838a81a34f512d9954f150ade04fe73fb826f640a27ec4df4c660"
   license "NOASSERTION"
 
   on_macos do
     on_intel do
-      url "https://github.com/ruteckimikolaj/pomodorust/releases/download/0.2.0/pomodorust-0.2.0-darwin-amd64.tar.gz"
-      sha256 "5c3eee5955e761614e28c65982620833d2d57756d6d3134ae73a6f8e2ea46fed"
+      url "https://github.com/ruteckimikolaj/pomodorust/releases/download/0.2.1/pomodorust-0.2.1-darwin-amd64.tar.gz"
+      sha256 "9057f0c6ca8315fe37471c1a1b51e271ce91dbb1002e82b9c10dc5e4cf0eeb99"
     end
 
     on_arm do
-      url "https://github.com/ruteckimikolaj/pomodorust/releases/download/0.2.0/pomodorust-0.2.0-darwin-arm64.tar.gz"
-      sha256 "5132f9e30d4d504320f5b16e7c67685495e59996f8f89c5bb21439edaa4127a5"
+      url "https://github.com/ruteckimikolaj/pomodorust/releases/download/0.2.1/pomodorust-0.2.1-darwin-arm64.tar.gz"
+      sha256 "f9ea0683f93b42178978f340ad8cd56084b829a7b255af57704083034d9c38b7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ruteckimikolaj/pomodorust/releases/download/0.2.0/pomodorust-0.2.0-linux-amd64.tar.gz"
-      sha256 "41bc3c4d11012275f17dd872b948e5a3c39b5c8d0bacda2db723cd3f3e75a6f1"
+      url "https://github.com/ruteckimikolaj/pomodorust/releases/download/0.2.1/pomodorust-0.2.1-linux-amd64.tar.gz"
+      sha256 "a18614735a6416f7fdfee6cc2bdd26cef5cdc70feb59dcd7de31735a313380e0"
     end
 
     on_arm do
-      url "https://github.com/ruteckimikolaj/pomodorust/releases/download/0.2.0/pomodorust-0.2.0-linux-arm64.tar.gz"
-      sha256 "cfe8913644f08b0724038953a08fdea711bbc61036b56bcb315424f71937dd6a"
+      url "https://github.com/ruteckimikolaj/pomodorust/releases/download/0.2.1/pomodorust-0.2.1-linux-arm64.tar.gz"
+      sha256 "86dd656a4fa20b7c2dcfcb606ab92a70789ecac14052d0d4010f081ccd8c7ea8"
     end
   end
 
